@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data>
+  <GazeData TimeStamp="4417463153">
+    <Pose Position="(-0.07670313, 0.49232260, -0.70123620)" Rotation="(-0.08276118, 0.66309490, 0.07912661, 0.73972610)" Valid="True" />
+    <Left>
+      <GazeDirection Value="(0.00613403, -0.18309020, 0.98306270)" Valid="True" />
+      <GazeOrigin Value="(-0.03013603, 0.00866541, -0.04135619)" Valid="True" />
+      <PupilDiameter Value="0.00380484" Valid="True" />
+      <GazeRayWorld Origin="(-0.12195550, 0.49113710, -0.67585070)" Direction="(0.99373170, 0.04528301, 0.10220910)" Valid="True" />
+    </Left>
+    <Right>
+      <GazeDirection Value="(0.09376526, -0.12864690, 0.98724370)" Valid="True" />
+      <GazeOrigin Value="(0.03265369, 0.00890569, -0.02876387)" Valid="True" />
+      <PupilDiameter Value="0.00525559" Valid="True" />
+      <GazeRayWorld Origin="(-0.10303480, 0.49469310, -0.73692880)" Direction="(0.99489160, 0.09988956, 0.01458627)" Valid="True" />
+    </Right>
+    <CombinedGazeRayWorld Origin="(-0.11249510, 0.49291510, -0.70638980)" Direction="(0.99563940, 0.07268333, 0.05847543)" Valid="True" />
+    <OriginalGaze DeviceTimeStamp="5750714035" SystemTimeStamp="4417463153">
+      <LeftEye>
+        <GazeDirection UnitVector="(-0.00613403, -0.18309020, 0.98306270)" Validity="Valid" />
+        <GazeOrigin PositionInHMDCoordinates="(30.13603000, 8.66540500, -41.35619000)" Validity="Valid" />
+        <Pupil PupilDiameter="3.80484000" Validity="Valid" />
+        <PupilPosition PositionInTrackingArea="(0.53121450, 0.48572300)" Validity="Valid" />
+      </LeftEye>
+      <RightEye>
+        <GazeDirection UnitVector="(-0.09376526, -0.12864690, 0.98724370)" Validity="Valid" />
+        <GazeOrigin PositionInHMDCoordinates="(-32.65369000, 8.90568500, -28.76387000)" Validity="Valid" />
+        <Pupil PupilDiameter="5.25558500" Validity="Valid" />
+        <PupilPosition PositionInTrackingArea="(0.53715470, 0.30249790)" Validity="Valid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="4417471485">
+    <Pose Position="(-0.07728696, 0.49237960, -0.70102730)" Rotation="(-0.08288325, 0.66111020, 0.07933521, 0.74146460)" Valid="True" />
+    <Left>
+      <GazeDirection Value="(0.01397705, -0.17646790, 0.98419190)" Valid="True" />
+      <GazeOrigin Value="(-0.03013559, 0.00853970, -0.04092783)" Valid="True" />
+      <PupilDiameter Value="0.00383588" Valid="True" />
+      <GazeRayWorld Origin="(-0.12222780, 0.49112790, -0.67582960)" Direction="(0.99363680, 0.05249886, 0.09964818)" Valid="True" />
+    </Left>
+    <Right>
+      <GazeDirection Value="(0.08212280, -0.13816830, 0.98698430)" Valid="True" />
+      <GazeOrigin Value="(0.03273120, 0.00901300, -0.02936581)" Valid="True" />
+      <PupilDiameter Value="0.00498943" Valid="True" />
+      <GazeRayWorld Origin="(-0.10403080, 0.49472930, -0.73700180)" Direction="(0.99535270, 0.09097583, 0.03156556)" Valid="True" />
+    </Right>
+    <CombinedGazeRayWorld Origin="(-0.11312930, 0.49292860, -0.70641570)" Direction="(0.99525620, 0.07179230, 0.06565707)" Valid="True" />
+    <OriginalGaze DeviceTimeStamp="5750722367" SystemTimeStamp="4417471485">
+      <LeftEye>
+        <GazeDirection UnitVector="(-0.01397705, -0.17646790, 0.98419190)" Validity="Valid" />
+        <GazeOrigin PositionInHMDCoordinates="(30.13559000, 8.53970300, -40.92783000)" Validity="Valid" />
+        <Pupil PupilDiameter="3.83587600" Validity="Valid" />
+        <PupilPosition PositionInTrackingArea="(0.53319050, 0.48495340)" Validity="Valid" />
+      </LeftEye>
+      <RightEye>
+        <GazeDirection UnitVector="(-0.08212280, -0.13816830, 0.98698430)" Validity="Valid" />
+        <GazeOrigin PositionInHMDCoordinates="(-32.73120000, 9.01300000, -29.36581000)" Validity="Valid" />
+        <Pupil PupilDiameter="4.98942600" Validity="Valid" />
+        <PupilPosition PositionInTrackingArea="(0.53826830, 0.30454270)" Validity="Valid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+  <GazeData TimeStamp="4417479816">
+    <Pose Position="(-0.07786223, 0.49248400, -0.70086350)" Rotation="(-0.08309711, 0.65915690, 0.07944903, 0.74316550)" Valid="True" />
+    <Left>
+      <GazeDirection Value="(0.01414490, -0.17642210, 0.98420720)" Valid="True" />
+      <GazeOrigin Value="(-0.03012503, 0.00846918, -0.04066980)" Valid="True" />
+      <PupilDiameter Value="0.00381186" Valid="True" />
+      <GazeRayWorld Origin="(-0.12266520, 0.49118920, -0.67587760)" Direction="(0.99309760, 0.05300649, 0.10463020)" Valid="True" />
+    </Left>
+    <Right>
+      <GazeDirection Value="(0.08723450, -0.14599610, 0.98542790)" Valid="True" />
+      <GazeOrigin Value="(0.03276268, 0.00890723, -0.02877313)" Valid="True" />
+      <PupilDiameter Value="0.00504843" Valid="True" />
+      <GazeRayWorld Origin="(-0.10382060, 0.49486810, -0.73693440)" Direction="(0.99600320, 0.08353098, 0.03162890)" Valid="True" />
+    </Right>
+    <CombinedGazeRayWorld Origin="(-0.11324290, 0.49302860, -0.70640600)" Direction="(0.99533070, 0.06832232, 0.06818300)" Valid="True" />
+    <OriginalGaze DeviceTimeStamp="5750730698" SystemTimeStamp="4417479816">
+      <LeftEye>
+        <GazeDirection UnitVector="(-0.01414490, -0.17642210, 0.98420720)" Validity="Valid" />
+        <GazeOrigin PositionInHMDCoordinates="(30.12503000, 8.46917700, -40.66980000)" Validity="Valid" />
+        <Pupil PupilDiameter="3.81185900" Validity="Valid" />
+        <PupilPosition PositionInTrackingArea="(0.53385390, 0.48516250)" Validity="Valid" />
+      </LeftEye>
+      <RightEye>
+        <GazeDirection UnitVector="(-0.08723450, -0.14599610, 0.98542790)" Validity="Valid" />
+        <GazeOrigin PositionInHMDCoordinates="(-32.76268000, 8.90722700, -28.77313000)" Validity="Valid" />
+        <Pupil PupilDiameter="5.04843100" Validity="Valid" />
+        <PupilPosition PositionInTrackingArea="(0.54009570, 0.30562710)" Validity="Valid" />
+      </RightEye>
+    </OriginalGaze>
+  </GazeData>
+</Data>

@@ -1,47 +1,37 @@
 import pandas as pandas
 import xml.etree.cElementTree as et
+import numpy as np
+
+def createCSV(folder_name, left_avg, right_avg, left_std, right_std) :
+    Pupil_df = pandas.DataFrame(
+        list(zip(left_avg, right_avg, left_std, right_std)), 
+        columns=['left_avg', 'right_avg', 'left_std', 'right_std']
+    )
+    Pupil_df.to_csv('./result/'+folder_name+ '.csv', index=False)
 
 
-file_name = 'vr_data_20191010T171504'
-# loop through all xml files
-tree=et.parse('./'+file_name+'.xml')
-root=tree.getroot()
+def addData (path, left_avg, right_avg, left_std, right_std) :
+    tree=et.parse(path)
+    root=tree.getroot()
 
-TimeStamp = []
-PupilDiameter = []
-LeftPupilDiameter = []
-RightPupilDiameter = []
+    LeftPupilDiameter = []
+    RightPupilDiameter = []
 
-i = 1
+    i = 1
 
-for time in root.iter('GazeData'):
-    t = time.attrib.get('TimeStamp')
-    TimeStamp.append(t)
+    for pupil in root.iter('Pupil'):
+        pd = pupil.attrib.get('PupilDiameter')
+        if (pd != 'NaN'):
+            if (i % 2 == 0):
+                RightPupilDiameter.append(float(pd))
+            else:
+                LeftPupilDiameter.append(float(pd)) 
+        i += 1
 
-for pupil in root.iter('Pupil'):
-    pd = pupil.attrib.get('PupilDiameter')
-    PupilDiameter.append(pd)
-    if (i % 2 == 0) :
-        RightPupilDiameter.append(pd)
-    else :
-        LeftPupilDiameter.append(pd)
-    i += 1
+    npRight = np.array(RightPupilDiameter)
+    right_avg.append(np.average(npRight))
+    right_std.append(np.std(npRight))
 
-# print('time:')
-# print(TimeStamp)
-# print('pupil diameter')
-# print(PupilDiameter)
-# print('right:')
-# print(RightPupilDiameter)
-# print('left:')
-# print(LeftPupilDiameter)
-
-Pupil_df = pandas.DataFrame(
-    list(zip(TimeStamp, LeftPupilDiameter, RightPupilDiameter)), 
-    columns=['TimeStamp', 'Left_Pupil_Diameter', 'Right_Pupil_Diameter']
-)
-
-print(Pupil_df)
-
-# csv file should match with the file input
-Pupil_df.to_csv(file_name+ '.csv', index=False)
+    npLeft = np.array(LeftPupilDiameter)
+    left_avg.append(np.average(npLeft))
+    left_std.append(np.std(npLeft))
